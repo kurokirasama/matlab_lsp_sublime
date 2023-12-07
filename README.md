@@ -1,4 +1,4 @@
-# matlab lsp language server for sublime text
+# MATLAB lsp language server for sublime text
 These are the settings to get working the official language server within sublime. See [MATLAB-language-server](https://github.com/mathworks/MATLAB-language-server).
 
 ## Install server
