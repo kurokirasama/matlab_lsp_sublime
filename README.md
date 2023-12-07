@@ -9,6 +9,7 @@ npm install && npm run compile && npm run package
 ```
 
 >Remember the PATH in which you installed this.
+>
 >**Needs MATLAB 2021+.**
 
 ## Setup up the server
@@ -19,4 +20,5 @@ npm install && npm run compile && npm run package
 4. **Modify paths accordingly**.
 
 > MATLAB path should look like `/usr/local/MATLAB/R2023a` (in linux). Use `matlabroot` within MATLAB to get its value.
+> 
 > **Tested in Ubuntu 20.04, steps my vary in other distributions or OS's.**
