@@ -1,0 +1,16 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+   {
+       "clients": {
+           "matlab": {
+               "command": ["/usr/bin/node", "/path/to/MATLAB-language-server/out/index.js","--stdio", "--matlabInstallPath", "/your/MATLAB/path"],
+               "enabled": true,
+               "selector": "source.matlab",
+               "settings": {
+                    "MATLAB.indexWorkspace": true,
+                    "MATLAB.installPath": "/your/MATLAB/path",
+                    "MATLAB.matlabConnectionTiming": "onStart",
+                    "MATLAB.telemetry": false
+                }
+           },
+       },
+   }
